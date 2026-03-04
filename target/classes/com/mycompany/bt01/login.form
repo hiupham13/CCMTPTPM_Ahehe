@@ -48,7 +48,7 @@
   <SubComponents>
     <Component class="javax.swing.JLabel" name="label">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Username"/>
+        <Property name="text" type="java.lang.String" value="Tên đăng nhập"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="txtUserName">
