@@ -30,12 +30,15 @@ public class login extends javax.swing.JFrame {
         txtUserName = new javax.swing.JTextField();
         label1 = new javax.swing.JLabel();
         txtpassword = new javax.swing.JTextField();
+        btnlogin = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         label.setText("Username");
 
         label1.setText("passwword");
+
+        btnlogin.setText("login");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -54,6 +57,10 @@ public class login extends javax.swing.JFrame {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 39, Short.MAX_VALUE)
                         .addComponent(txtUserName, javax.swing.GroupLayout.PREFERRED_SIZE, 134, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGap(40, 40, 40))
+            .addGroup(layout.createSequentialGroup()
+                .addGap(159, 159, 159)
+                .addComponent(btnlogin)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -66,7 +73,9 @@ public class login extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(label1)
                     .addComponent(txtpassword, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(176, Short.MAX_VALUE))
+                .addGap(61, 61, 61)
+                .addComponent(btnlogin)
+                .addContainerGap(92, Short.MAX_VALUE))
         );
 
         pack();
@@ -108,6 +117,7 @@ public class login extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton btnlogin;
     private javax.swing.JLabel label;
     private javax.swing.JLabel label1;
     private javax.swing.JTextField txtUserName;
