@@ -24,19 +24,15 @@
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="1" attributes="0">
+              <EmptySpace min="-2" pref="98" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="1" attributes="0">
-                  <Group type="102" attributes="0">
-                      <EmptySpace max="32767" attributes="0"/>
-                      <Component id="label1" min="-2" pref="89" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="58" max="-2" attributes="0"/>
-                      <Component id="txtpassword" min="-2" pref="134" max="-2" attributes="0"/>
-                  </Group>
-                  <Group type="102" attributes="0">
-                      <EmptySpace min="-2" pref="98" max="-2" attributes="0"/>
-                      <Component id="label" min="-2" pref="89" max="-2" attributes="0"/>
-                      <EmptySpace pref="39" max="32767" attributes="0"/>
-                      <Component id="txtUserName" min="-2" pref="134" max="-2" attributes="0"/>
-                  </Group>
+                  <Component id="label" min="-2" pref="89" max="-2" attributes="0"/>
+                  <Component id="label1" min="-2" pref="89" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="39" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="txtUserName" alignment="1" min="-2" pref="134" max="-2" attributes="0"/>
+                  <Component id="txtpassword" alignment="1" min="-2" pref="134" max="-2" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
           </Group>
@@ -70,14 +66,14 @@
   <SubComponents>
     <Component class="javax.swing.JLabel" name="label">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Tên đăng nhập"/>
+        <Property name="text" type="java.lang.String" value="T&#xea;n &#x111;&#x103;ng nh&#x1ead;p"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="txtUserName">
     </Component>
     <Component class="javax.swing.JLabel" name="label1">
       <Properties>
-        <Property name="text" type="java.lang.String" value="passwword"/>
+        <Property name="text" type="java.lang.String" value="M&#x1ead;t kh&#x1ea9;u"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="txtpassword">
